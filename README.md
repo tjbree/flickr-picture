@@ -14,3 +14,5 @@ This SPA is deployed on Heroku. Click [here](https://yanyan-flickr-picture.herok
 * Performance: lodash.debounce package
 
 ## More projects are yet to come
+
+Wait for it
