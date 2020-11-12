@@ -23,6 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "copy": "[ ! -d dist/yeeyi/desk ] && mkdir -p dist/yeeyi/desk; cp -rf build/* dist/yeeyi/desk/",
+    "buildyeeyi": "npm run build &&npm run copy",
     "heroku-postbuild": "npm install && npm run build"
   },
   "eslintConfig": {
@@ -39,5 +41,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "."
 }
