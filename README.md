@@ -12,3 +12,5 @@ This SPA is deployed on Heroku. Click [here](https://yanyan-flickr-picture.herok
 * Responsive UI: Bootstrap, Reactstrap
 * Data fetching: fetch-jsonp package
 * Performance: lodash.debounce package
+
+## More projects are yet to come
